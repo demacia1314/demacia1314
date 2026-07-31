@@ -1,43 +1,31 @@
-<!-- ▓ PIXEL ARCADE · DEMACIA1314 ▓ -->
+<!-- DEMACIA1314 · DARK PIXEL -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/banner.gif" width="100%" alt="pixel city"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/banner.png" width="100%" alt="pixel city"/>
 </div>
 
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/avatar.gif" width="120" alt="avatar"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/avatar.png" width="110" alt="avatar"/>
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/title.svg" width="620" alt="DEMACIA1314"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/title.png" width="360" alt="DEMACIA1314"/>
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/typing.svg" width="620" alt="press start"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/divider.png" width="360" alt="divider"/>
 </div>
 
 <br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/matrix.gif" width="200" alt="matrix"/>
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/plasma.gif" width="200" alt="plasma"/>
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/fire.gif" width="200" alt="fire"/>
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/press_start.svg" width="220" alt="press start"/>
+  <a href="https://subtoken.vip">
+    <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/relay.svg" width="300" alt="subtoken.vip"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PLAYER%201-READY-00e5ff?style=flat-square" alt="player 1 ready"/>
-  <img src="https://img.shields.io/badge/8--BIT%20MODE-ON-57ff20?style=flat-square" alt="8-bit mode"/>
-  <img src="https://img.shields.io/badge/NO%20BUGS-ONLY%20GLITCHES-ff2975?style=flat-square" alt="no bugs only glitches"/>
+  <a href="https://subtoken.vip"><sub>subtoken.vip</sub></a>
 </p>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/marquee.svg" width="100%" alt="marquee"/>
-</div>
