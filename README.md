@@ -1,55 +1,48 @@
-<!-- 👾 暗色像素风 GitHub 主页 / Dark Pixel Profile -->
+<!-- ▓▓▓ PIXEL ARCADE · DEMACIA1314 · PURE ENTERTAINMENT ▓▓▓ -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/banner.png" alt="pixel banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/banner.gif" width="100%" alt="pixel city banner"/>
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/avatar.gif" width="150" alt="pixel avatar"/>
+</p>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/title.svg" width="640" alt="glitch title"/>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/typing.svg" width="640" alt="typing"/>
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/avatar.png" alt="pixel avatar" width="150"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/sprites.gif" width="480" alt="sprites"/>
 </p>
 
-<h1 align="center">👾 DEMACIA1314</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/status.gif" width="420" alt="status panel"/>
+</p>
 
 <p align="center">
-  <b>「 像素旅人 · Pixel Explorer 」</b><br/>
-  <i>代码即像素，世界即地图 — every pixel counts.</i>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/press_start.svg" width="240" alt="press start"/>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=demacia1314&color=00e5ff&style=flat-square&label=VISITS" alt="visitors"/>
+  <img src="https://img.shields.io/badge/PLAYER%201-READY-00e5ff?style=for-the-badge" alt="player 1 ready"/>
+  <img src="https://img.shields.io/badge/8--BIT%20MODE-ON-57ff20?style=for-the-badge" alt="8-bit mode"/>
+  <img src="https://img.shields.io/badge/NO%20BUGS-ONLY%20GLITCHES-ff2975?style=for-the-badge" alt="no bugs only glitches"/>
 </p>
 
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/marquee.svg" width="100%" alt="marquee"/>
+</div>
 
-## ▓▒░ 关于我 / ABOUT
-
-- ▸ 正在用 **Python** 打磨项目 `SPA-DN`
-- ▸ 喜欢 8-bit 复古美学、像素艺术与深夜写码
-- ▸ 在 GitHub 的世界里闯关升级中，欢迎来串门 🚪
-
-## ▓▒░ 技能树 / STACK
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-## ▓▒░ 最新作品 / PROJECTS
-
-| 项目 | 说明 | 语言 |
-|------|------|------|
-| [SPA-DN](https://github.com/demacia1314/SPA-DN) | 个人 Python 项目 | Python |
-
-## ▓▒░ 像素数据 / STATS
+<br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/status.png" alt="pixel status panel" width="420"/>
-</p>
-
----
-
-<p align="center">
-  <b>░▒▓█ PRESS START TO CONTINUE █▓▒░</b><br/>
-  <sub>Made with 🖤 · Powered by pixels & caffeine</sub>
+  <sub>MADE WITH PIXELS &amp; CAFFEINE · CONTINUE?</sub>
 </p>
