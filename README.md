@@ -23,7 +23,15 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/status.gif" width="420" alt="status panel"/>
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/matrix.gif" width="480" alt="matrix rain"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/fire.gif" width="420" alt="pixel fire"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/demacia1314/demacia1314/main/assets/plasma.gif" width="480" alt="plasma wave"/>
 </p>
 
 <p align="center">
