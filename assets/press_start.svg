@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="76" viewBox="0 0 240 76">
+  <defs>
+    <style>
+      text{font-family:Consolas,"Courier New",monospace;text-anchor:middle}
+      .ps{font-weight:900;font-size:26px;fill:#57ff20;animation:blink 1.1s steps(1) infinite}
+      .sub{font-size:13px;fill:#00e5ff;letter-spacing:3px;animation:blink 1.1s steps(1) infinite;animation-delay:.55s}
+      rect.fr{fill:none;stroke:#57ff20;stroke-width:3;rx:6;animation:borderpulse 1.1s steps(1) infinite}
+      @keyframes blink{0%,55%{opacity:1}56%,100%{opacity:.12}}
+      @keyframes borderpulse{0%,55%{opacity:1}56%,100%{opacity:.25}}
+    </style>
+  </defs>
+  <rect class="fr" x="4" y="4" width="232" height="52"/>
+  <text class="ps" x="120" y="38">▶ PRESS START</text>
+  <text class="sub" x="120" y="66">1P · INSERT COIN</text>
+</svg>
