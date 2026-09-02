@@ -1,0 +1,36 @@
+name: Sync Kaggle Medals
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run daily at midnight UTC
+  workflow_dispatch:      # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  update-kaggle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Sync Kaggle Awards
+        run: python scripts/sync_kaggle.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/ README.md
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "chore(cron): sync kaggle medal awards"
+            git push origin main
+          else
+            echo "No changes in Kaggle medal awards."
+          fi

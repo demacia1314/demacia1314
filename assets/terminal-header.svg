@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="46" viewBox="0 0 820 46">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="44" viewBox="0 0 820 44">
   <defs>
     <style>
       .t-cmd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12.5px; font-weight: 700; fill: #00e5ff; }
@@ -6,15 +6,14 @@
       .t-ok { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 10.5px; font-weight: 800; fill: #10b981; letter-spacing: 1px; }
     </style>
   </defs>
-  <rect x="1" y="1" width="818" height="44" rx="4" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
-  <!-- Window buttons -->
-  <circle cx="16" cy="23" r="4" fill="#ef4444"/>
-  <circle cx="28" cy="23" r="4" fill="#f59e0b"/>
-  <circle cx="40" cy="23" r="4" fill="#10b981"/>
-  <line x1="54" y1="10" x2="54" y2="36" stroke="#1e293b" stroke-width="1"/>
+  <rect x="1" y="1" width="818" height="42" rx="4" fill="#080c14" stroke="#1e293b" stroke-width="1"/>
+  <circle cx="16" cy="22" r="4" fill="#ef4444"/>
+  <circle cx="28" cy="22" r="4" fill="#f59e0b"/>
+  <circle cx="40" cy="22" r="4" fill="#10b981"/>
+  <line x1="54" y1="9" x2="54" y2="35" stroke="#1e293b" stroke-width="1"/>
   
-  <text class="t-txt" x="68" y="27"><tspan class="t-cmd">demacia1314:~$</tspan> run profile --theme=dark-pixel --role="AI Agent &amp; ML Researcher"</text>
+  <text class="t-txt" x="68" y="26"><tspan class="t-cmd">demacia1314:~$</tspan> kaggle awards --user=demacia1314 --medals-only</text>
   
-  <rect x="736" y="13" width="68" height="20" rx="2" fill="#062817" stroke="#10b981" stroke-width="1"/>
-  <text class="t-ok" x="770" y="27" text-anchor="middle">ONLINE</text>
+  <rect x="696" y="12" width="108" height="20" rx="2" fill="#062817" stroke="#10b981" stroke-width="1"/>
+  <text class="t-ok" x="750" y="26" text-anchor="middle">1 SILVER MEDAL</text>
 </svg>
