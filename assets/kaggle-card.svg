@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="280" viewBox="0 0 820 280">
+  <defs>
+    <style>
+      .term-title { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 13px; font-weight: 700; fill: #00e5ff; letter-spacing: 1.5px; }
+      .tag-tier { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11px; font-weight: 600; fill: #cbd5e1; letter-spacing: 1px; }
+      .comp-title { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 12.5px; font-weight: 700; fill: #f8fafc; }
+      .comp-meta { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11px; fill: #94a3b8; }
+      .rank-silver { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 13px; font-weight: 800; fill: #ffffff; }
+      .rank-highlight { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 12px; font-weight: 700; fill: #38bdf8; }
+      .rank-sub { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 10.5px; font-weight: 700; fill: #00e5ff; }
+      .badge-silver { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11.5px; font-weight: 800; fill: #f1f5f9; letter-spacing: 1.5px; }
+      .label-dim { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 10px; font-weight: 600; fill: #94a3b8; }
+      .tag-active { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11px; font-weight: 600; fill: #38ef7d; }
+      .link-prompt { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11px; font-weight: 700; fill: #00e5ff; letter-spacing: 0.5px; }
+    </style>
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#e2e8f0"/>
+      <stop offset="70%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="50%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#06080e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="2" y="2" width="816" height="276" rx="4" fill="url(#cardBg)" stroke="#00e5ff" stroke-width="1.5"/>
+  <!-- Inner Pixel Border Lines -->
+  <rect x="7" y="7" width="806" height="266" rx="2" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <!-- Corner Pixel Accents -->
+  <rect x="3" y="3" width="5" height="5" fill="#00e5ff"/>
+  <rect x="812" y="3" width="5" height="5" fill="#00e5ff"/>
+  <rect x="3" y="272" width="5" height="5" fill="#00e5ff"/>
+  <rect x="812" y="272" width="5" height="5" fill="#00e5ff"/>
+
+  <!-- Top Header Bar -->
+  <path d="M8 8 H812 V35 H8 Z" fill="#0f172a" opacity="0.8"/>
+  <line x1="8" y1="35" x2="812" y2="35" stroke="#1e293b" stroke-width="1"/>
+  
+  <!-- Terminal Prompt Dot -->
+  <rect x="18" y="16" width="7" height="11" fill="#00e5ff"/>
+  <text class="term-title" x="32" y="24">KAGGLE // DEMACIA1314 (LoveB4Sunrise)</text>
+  <text class="tag-tier" x="792" y="24" text-anchor="end">TIER: CONTRIBUTOR · 8 COMPS</text>
+
+  <!-- Left: Pixel Trophy & Silver Badge -->
+  <g transform="translate(22, 46)">
+    <rect x="0" y="0" width="186" height="216" rx="3" fill="#0a101d" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Pixel Trophy / Medal Art -->
+    <g transform="translate(49, 16)">
+      <!-- Ribbon (pixelated style) -->
+      <path d="M14,0 H26 L22,22 L10,22 Z" fill="#3b82f6"/>
+      <path d="M34,0 H46 L50,22 L38,22 Z" fill="#00e5ff"/>
+      <rect x="26" y="0" width="8" height="22" fill="#1d4ed8"/>
+      <polygon points="10,22 18,30 26,22" fill="#2563eb"/>
+      <polygon points="34,22 42,30 50,22" fill="#0891b2"/>
+      
+      <!-- Medal Body (Octagonal pixel silhouette) -->
+      <polygon points="22,30 38,30 48,40 48,56 38,66 22,66 12,56 12,40" fill="url(#silverGrad)" stroke="#f8fafc" stroke-width="1.5"/>
+      <!-- Inner Ring -->
+      <polygon points="24,34 36,34 44,42 44,54 36,62 24,62 16,54 16,42" fill="#0b1220" stroke="#94a3b8" stroke-width="1"/>
+      
+      <!-- Center Star / Number 2 -->
+      <text x="30" y="53" font-family="monospace" font-size="16" font-weight="900" fill="#e2e8f0" text-anchor="middle">2</text>
+    </g>
+
+    <!-- Trophy Label -->
+    <text class="badge-silver" x="93" y="116" text-anchor="middle">SILVER MEDAL</text>
+    <line x1="25" y1="124" x2="161" y2="124" stroke="#1e293b" stroke-width="1"/>
+    
+    <text class="label-dim" x="93" y="140" text-anchor="middle">BEST COMPETITION</text>
+    <text class="rank-silver" x="93" y="158" text-anchor="middle">TOP 1.07%</text>
+    <text class="comp-meta" x="93" y="174" text-anchor="middle">RANK 45 / 4,186</text>
+
+    <!-- Link button inside panel -->
+    <rect x="18" y="186" width="150" height="20" rx="2" fill="#0f172a" stroke="#00e5ff" stroke-width="1"/>
+    <text class="link-prompt" x="93" y="200" text-anchor="middle" font-size="10">&#x2197; KAGGLE PROFILE</text>
+  </g>
+
+  <!-- Right: Competitions Log -->
+  <g transform="translate(224, 46)">
+    
+    <!-- Row 1: Silver Medal Winner (AI Agent Security) -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="572" height="44" rx="3" fill="#0c192c" stroke="#38bdf8" stroke-width="1.2"/>
+      <!-- Silver Tag -->
+      <rect x="8" y="8" width="26" height="28" rx="2" fill="#1e293b" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="21" y="27" font-size="14" text-anchor="middle">🥈</text>
+      <!-- Details -->
+      <text class="comp-title" x="42" y="20" fill="#ffffff">AI Agent Security - Multi-Step Tool Attacks</text>
+      <text class="comp-meta" x="42" y="34">Featured · Code Competition · 4,186 Teams</text>
+      <!-- Rank -->
+      <text class="rank-silver" x="560" y="20" text-anchor="end" fill="#f1f5f9">RANK #45</text>
+      <text class="rank-sub" x="560" y="33" text-anchor="end">TOP 1.07% · SILVER</text>
+    </g>
+
+    <!-- Row 2: Pokemon PTCG Simulation -->
+    <g transform="translate(0, 49)">
+      <rect x="0" y="0" width="572" height="38" rx="2" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+      <rect x="8" y="8" width="4" height="22" fill="#f59e0b"/>
+      <text class="comp-title" x="20" y="18" font-size="11.5">The Pokémon Company - PTCG AI Battle Challenge</text>
+      <text class="comp-meta" x="20" y="30">Featured · Simulation Competition · 6,807 Teams</text>
+      <text class="rank-highlight" x="560" y="19" text-anchor="end" fill="#f59e0b">#402 <tspan class="comp-meta" fill="#94a3b8">/ 6,807</tspan></text>
+      <text class="rank-sub" x="560" y="30" text-anchor="end" fill="#94a3b8">TOP 5.9%</text>
+    </g>
+
+    <!-- Row 3: AIMO Progress Prize 2 -->
+    <g transform="translate(0, 92)">
+      <rect x="0" y="0" width="572" height="38" rx="2" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+      <rect x="8" y="8" width="4" height="22" fill="#a855f7"/>
+      <text class="comp-title" x="20" y="18" font-size="11.5">AI Mathematical Olympiad - Progress Prize 2</text>
+      <text class="comp-meta" x="20" y="30">Featured · Code Competition · 2,212 Teams</text>
+      <text class="rank-highlight" x="560" y="23" text-anchor="end" fill="#c084fc">#420 <tspan class="comp-meta" fill="#94a3b8">/ 2,212</tspan></text>
+    </g>
+
+    <!-- Row 4: BYU Locating Bacterial Flagellar Motors -->
+    <g transform="translate(0, 135)">
+      <rect x="0" y="0" width="572" height="38" rx="2" fill="#090d16" stroke="#1e293b" stroke-width="1"/>
+      <rect x="8" y="8" width="4" height="22" fill="#00e5ff"/>
+      <text class="comp-title" x="20" y="18" font-size="11.5">BYU - Locating Bacterial Flagellar Motors 2025</text>
+      <text class="comp-meta" x="20" y="30">Research · Code Competition · 1,136 Teams</text>
+      <text class="rank-highlight" x="560" y="23" text-anchor="end" fill="#38bdf8">#403 <tspan class="comp-meta" fill="#94a3b8">/ 1,136</tspan></text>
+    </g>
+
+    <!-- Row 5: Live Activity & Status Bar -->
+    <g transform="translate(0, 178)">
+      <rect x="0" y="0" width="572" height="38" rx="2" fill="#080f1a" stroke="#1e293b" stroke-dasharray="3,3"/>
+      <!-- Pulse dot -->
+      <circle cx="16" cy="19" r="4" fill="#38ef7d"/>
+      <text class="tag-active" x="28" y="23">[ACTIVE] Kaggriculture · Biohub Cell Tracking</text>
+      <text class="link-prompt" x="560" y="23" text-anchor="end">VIEW KAGGLE PROFILE &#x2192;</text>
+    </g>
+  </g>
+</svg>

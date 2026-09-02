@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="64" viewBox="0 0 340 64">
+  <defs>
+    <style>
+      .b-title { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 15px; font-weight: 800; fill: #ffffff; letter-spacing: 1.5px; }
+      .b-sub { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 11px; font-weight: 700; fill: #00e5ff; letter-spacing: 2px; }
+      .b-pill { font-family: ui-monospace, SFMono-Regular, Consolas, 'Courier New', monospace; font-size: 10px; font-weight: 800; fill: #38ef7d; }
+    </style>
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#0e1626"/>
+    </linearGradient>
+    <linearGradient id="pixelSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer pixel border -->
+  <rect x="2" y="2" width="336" height="60" rx="4" fill="url(#badgeBg)" stroke="#00e5ff" stroke-width="1.8"/>
+  <!-- Inner dashed border -->
+  <rect x="7" y="7" width="326" height="50" rx="2" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Pixel Medal Icon -->
+  <g transform="translate(16, 14)">
+    <rect x="0" y="0" width="34" height="36" rx="2" fill="#0b1220" stroke="#334155" stroke-width="1"/>
+    <!-- Ribbon -->
+    <rect x="9" y="4" width="7" height="12" fill="#3b82f6"/>
+    <rect x="18" y="4" width="7" height="12" fill="#00e5ff"/>
+    <polygon points="9,16 12,20 16,16" fill="#2563eb"/>
+    <polygon points="18,16 22,20 25,16" fill="#0891b2"/>
+    <!-- Octagonal Medal -->
+    <polygon points="11,18 23,18 29,24 29,31 23,37 11,37 5,31 5,24" fill="url(#pixelSilver)" stroke="#f8fafc" stroke-width="1"/>
+    <text x="17" y="30" font-family="monospace" font-size="10" font-weight="900" fill="#0f172a" text-anchor="middle">2</text>
+  </g>
+
+  <!-- Title & Sub -->
+  <text class="b-title" x="60" y="30">KAGGLE MEDALIST</text>
+  <text class="b-sub" x="60" y="48">TOP 1.07% · RANK 45/4186</text>
+  
+  <!-- Right Tag -->
+  <rect x="264" y="18" width="58" height="28" rx="2" fill="#062817" stroke="#10b981" stroke-width="1"/>
+  <text class="b-pill" x="293" y="35" text-anchor="middle">SILVER &#x2197;</text>
+</svg>
