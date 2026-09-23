@@ -11,9 +11,9 @@
   <circle cx="28" cy="22" r="4" fill="#f59e0b"/>
   <circle cx="40" cy="22" r="4" fill="#10b981"/>
   <line x1="54" y1="9" x2="54" y2="35" stroke="#1e293b" stroke-width="1"/>
-  
-  <text class="t-txt" x="68" y="26"><tspan class="t-cmd">demacia1314:~$</tspan> kaggle awards --user=demacia1314 --medals-only</text>
-  
-  <rect x="696" y="12" width="108" height="20" rx="2" fill="#062817" stroke="#10b981" stroke-width="1"/>
-  <text class="t-ok" x="750" y="26" text-anchor="middle">1 SILVER MEDAL</text>
+
+  <text class="t-txt" x="68" y="26"><tspan class="t-cmd">demacia1314:~$</tspan> kaggle competitions --user=demacia1314 --tier</text>
+
+  <rect x="676" y="12" width="128" height="20" rx="2" fill="#062817" stroke="#10b981" stroke-width="1"/>
+  <text class="t-ok" x="740" y="26" text-anchor="middle">EXPERT · 2 MEDALS</text>
 </svg>

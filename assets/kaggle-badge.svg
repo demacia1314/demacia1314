@@ -12,11 +12,11 @@
   </defs>
   <rect x="1" y="1" width="458" height="50" rx="4" fill="url(#badgeBg)" stroke="#00e5ff" stroke-width="1.5"/>
   <rect x="5" y="5" width="450" height="42" rx="2" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="3,3"/>
-  
-  <text x="24" y="32" font-size="18" text-anchor="middle">🥈</text>
-  <text class="b-title" x="44" y="23">KAGGLE SILVER MEDALIST</text>
-  <text class="b-rank" x="44" y="38">RANK 45 / 4,186 · TOP 1.07%</text>
-  
+
+  <text x="24" y="32" font-size="17" text-anchor="middle">🥈</text>
+  <text class="b-title" x="44" y="23">KAGGLE EXPERT · 1 SILVER · 1 BRONZE</text>
+  <text class="b-rank" x="44" y="38">COMPETITIONS RANK 1,617 / 217,552 · TOP 0.74%</text>
+
   <rect x="336" y="14" width="110" height="24" rx="3" fill="#062817" stroke="#10b981" stroke-width="1"/>
   <text class="b-pill" x="391" y="30" text-anchor="middle">demacia1314 &#x2197;</text>
 </svg>
