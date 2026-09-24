@@ -465,9 +465,9 @@ def build():
                fill=stroke if k else SLATE, weight=800, anchor="middle",
                spacing="1")
 
-    s.text(bx + card_w / 2, ty + 120, "1 silver · 1 bronze", size=10.5,
-           fill=MUTED, weight=600, anchor="middle")
-    s.text(bx + card_w / 2, ty + 138, "EXPERT · 6 competitions", size=10,
+    s.text(bx + card_w / 2, ty + 118, "BYU Flagellar Motors · 403/1,136",
+           size=9.5, fill=MUTED, weight=600, anchor="middle")
+    s.text(bx + card_w / 2, ty + 136, "EXPERT · 6 competitions", size=10,
            fill=GREEN, weight=700, anchor="middle")
 
     # ------------------------------------------------------------------

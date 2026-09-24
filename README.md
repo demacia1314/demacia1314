@@ -13,12 +13,10 @@
 | Medal | Competition | Category | Leaderboard Rank | Award / Percentile |
 | :---: | :--- | :---: | :---: | :--- |
 | 🥈 | **[AI Agent Security - Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks)** | Featured · Code Competition | **45 / 4,186** | **Top 1.07% · Silver Medal** |
-| 🥉 | *Second competition medal* | Competition | — | **Bronze Medal** |
+| 🥉 | **[BYU - Locating Bacterial Flagellar Motors 2025](https://www.kaggle.com/competitions/byu-locating-bacterial-flagellar-motors-2025)** | Research · Code Competition | **403 / 1,136** | **Bronze Medal** |
 
 **Competitions tier: `EXPERT`** — ranked **1,617 / 217,552** competitors worldwide (top 0.74%).
 Medals: 🥇 0 · 🥈 1 · 🥉 1 · 6 competitions entered · 22 profile badges.
-
-> The Kaggle API confirms one silver and one bronze medal on this account. The bronze-medal competition is not yet attributed — add its name, rank and team count to the table once known.
 
 <br/>
 
