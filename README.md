@@ -22,17 +22,6 @@ Medals: 🥇 0 · 🥈 1 · 🥉 1 · 6 competitions entered · 22 profile badge
 
 <br/>
 
-### 🛠 Featured Projects
-
-| Project | What it is | Stack | ★ |
-| :--- | :--- | :---: | :---: |
-| **[dsh-airdrop](https://github.com/demacia1314/dsh-airdrop)** | Drag-and-drop file/folder upload into any DSH window, including byte-streaming to a remote server workspace — so a server-hosted DSH accepts drops like a local one. | TypeScript | 9 |
-| **[WordAgent](https://github.com/demacia1314/WordAgent)** | AI editing sidebar for Microsoft Word with live document updates. Windows local trial plus an npm package. | TypeScript | 0 |
-| **[dsh-remote-deliver](https://github.com/demacia1314/dsh-remote-deliver)** | One-click delivery of modified files and image previews from a remote DSH deploy — no more scp round-trips. | JavaScript | 0 |
-| **[SPA-DN](https://github.com/demacia1314/SPA-DN)** | Earlier research code. | Python | 0 |
-
-<br/>
-
 ### 🔗 Connect
 
 <p align="center">

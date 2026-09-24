@@ -16,6 +16,7 @@ uses an original composition:
 Run `py -3 scripts/build_identity_banner.py` to regenerate.
 """
 
+import base64
 import math
 import os
 
@@ -43,6 +44,19 @@ MONO = ("ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "
 
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def data_uri(rel_path):
+    """Inline a PNG as a data URI.
+
+    GitHub renders README images through its camo proxy with a CSP that blocks
+    SVG-embedded external loads, so the avatar has to travel inside the SVG
+    itself.
+    """
+    here = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(os.path.dirname(here), rel_path)
+    with open(path, "rb") as fh:
+        return "data:image/png;base64," + base64.b64encode(fh.read()).decode()
 
 
 # ----------------------------------------------------------------------------
@@ -262,7 +276,6 @@ def audit(boxes):
 
 def build():
     s = SVG()
-    s = SVG()
     s.add(f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
           f'viewBox="0 0 {W} {H}">')
     s.add(f'''<defs>
@@ -328,9 +341,11 @@ def build():
     s.add(f'<clipPath id="hexc"><polygon points="'
           + " ".join(f"{x:.1f},{y:.1f}" for x, y in hexp2) + '"/></clipPath>')
     s.add('<g clip-path="url(#hexc)">')
-    sc = 9.0
-    sprite(s, ax - 8.5 * sc, ay - 10.5 * sc, AV_ROWS, AV, sc)
-    sprite(s, ax + 5.0 * sc, ay - 10.4 * sc, CAT_ROWS, CAT, 3.0)
+    s.rect(ax - arad, ay - arad, arad * 2, arad * 2, fill="#071120")
+    s.add(f'<image x="{ax - arad + 4:.1f}" y="{ay - arad + 4:.1f}" '
+          f'width="{arad * 2 - 8:.1f}" height="{arad * 2 - 8:.1f}" '
+          f'preserveAspectRatio="xMidYMid meet" '
+          f'href="{data_uri("assets/avatar-pixel.png")}"/>')
     s.add('</g>')
 
     # ------------------------------------------------------------------
